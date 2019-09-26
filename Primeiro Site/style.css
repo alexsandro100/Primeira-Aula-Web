@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+nav{
+    height: 80px;
+    background-color: #008B8B;
+    position: fixed;
+    width: 100%;
+}
+main, aside{
+    display: inline-block;
+    margin-top: 80px;
+}
+main{
+    width: 80%;
+    background-color: #FFFFFF;
+    float: left;
+    height: 1000px;
+    border-right: 15px solid #008B8B;
+}
+aside{
+    width: 20%;
+    float: right;
+    max-height: 1000px;
+    overflow-y: scroll;
+}
+footer{
+    height: 300px;
+    background-color: #008B8B;
+    clear: both;
+}
+#nome, #logo{
+    display: inline-block;
+}
+#logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 100px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#nome{
+    font-family: fantasy;
+    font-size: 40px;
+}
+a{
+    float: right;
+    margin-top: 40px;
+    margin-right: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-right: 3px solid #000000;
+    font-weight: bold;
+}
+a:hover{
+    color: #000000;
+}
+#partidas{
+    margin-right: 100px;
+    border-right: 0px;
+    padding-right: 0px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#titulo_main{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008B8B;
+    text-shadow: 1px 1px 1px #000000;
+}
+tr,th, td{
+    border: 2px solid #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+table{
+    background-color: #008B8B;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+#coluna-times{
+    text-align: left;
+}
+#contato{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+form{
+    width: 20%;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+div{
+    margin-bottom: 5px;
+}
+#formulario{
+    width: 20%;
+    margin-left: 100px;
+}
+#sociais{
+    border: 0;
+    width: 10px;
+    float: right;
+    clear: both;
+}
+#formulario, #logo-wpp, #logo-fb{
+    display: inline-block;
+}
+#logo-wpp{
+    float: left;
+}
+#logo-fb{
+    width: 60px;
+    height: 60px;
+}
+#logo-time:hover{
+    background-color: #008B8B;
+    border: 30px solid #008B8B;
+}
